@@ -41,7 +41,7 @@
 // 图片文件: 93,182 bytes
 // 打包文件: 12,456 bytes
 
-import { IMAGE_BACK } from './example/e5';
+// import { IMAGE_BACK } from './example/e5';
 
 /**
  * ex6
@@ -76,6 +76,14 @@ import { IMAGE_BACK } from './example/e5';
 
 //  import func from './example/e9';
 //  func(true);
+
+/**
+ * ex10
+ * import * as M from './m'
+ */
+
+ import { CA } from './example/e10';
+CA.testA();
 
 
 
