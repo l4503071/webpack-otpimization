@@ -15,6 +15,11 @@ module.exports = {
   // performance: {
   //   hints:'error'
   // },
+  resolve:{
+    alias:{
+      '@res': path.resolve(__dirname,'./src/res/'),
+    }
+  },  
   module:{
     rules:[
       {
@@ -29,10 +34,13 @@ module.exports = {
                 modules: false,
               }]
             ],
-            // plugins: ['@babel/plugin-transform-runtime']
+            plugins: [
+              // "@babel/plugin-proposal-object-rest-spread",
+            ]
           }
         }
-      },{
+      },
+      {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'image-source-loader'
       },

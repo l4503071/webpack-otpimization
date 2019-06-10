@@ -82,9 +82,8 @@
  * import * as M from './m'
  */
 
- import { CA } from './example/e10';
+import { CA } from './example/e10';
 CA.testA();
-
 
 
 
