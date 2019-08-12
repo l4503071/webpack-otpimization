@@ -1,6 +1,7 @@
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
+const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
@@ -38,7 +39,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: [{ loader: 'css-loader' }],
-        sideEffects: false,
+        // sideEffects: false,
       },
       // {
       //   include: [
@@ -75,6 +76,11 @@ module.exports = {
     //   statsFilename: 'main.json',
     //   defaultSizes: 'parsed',
     // }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        'EXAMPLE': process.env.EXAMPLE,
+      }
+    }),
     new HtmlWebpackPlugin(),
   ],
 }

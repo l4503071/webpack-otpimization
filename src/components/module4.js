@@ -99,13 +99,33 @@
 /**
  * **导出方式6**
  */
-class P {
-  f1() {
-    console.log('f1');
-  }
-  f2() {
-    console.log('f2');
-  }
-}
 
-export default new P();
+// class P {
+//   f1() {
+//     console.log('f1');
+//   }
+//   f2() {
+//     console.log('f2');
+//   }
+// }
+
+// export default new P();
+
+/**
+ * **复合写法**
+ */
+
+export {
+  f3,
+  f4,
+} from './module4_1';
+
+// export {
+//   f5,
+//   f6,
+// } from './module4_2';
+
+
+// !function f1() {
+//   console.log('f1');
+// }()

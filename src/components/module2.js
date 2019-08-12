@@ -3,16 +3,14 @@ import {
   f4,
 } from './module2_1';
 
-function f1(a,b) {
-  console.log('f1');
-  const c = a + b;
-  return c;
+function f1() {
+  console.log('f1 done')
+  return "f1 return";
 }
-function f2(c,d) {
-  console.log('f2');
+function f2() {
   f3();
-  const e = c - d;
-  return e;
+  console.log('f2 done')
+  return "f2 return";
 }
 
 export {

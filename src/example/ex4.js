@@ -87,3 +87,15 @@
 // import A from '../components/module4';
 // console.log('ex4', A.f1());
 
+
+
+/**
+ * **--------分割线-------**
+ * **复合写法**
+ */
+
+import {
+  f3,
+} from '../components/module4';
+const list = [1,2,3]
+f3(list);

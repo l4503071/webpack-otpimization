@@ -15,26 +15,24 @@
 
 //  import './style.css';
 
+function f1() {
+  console.log('f1 done')
+  return "f1 return";
+}
+
+function f2() {
+  console.log('f2 done')
+  return "f2 return";
+}
 /**
  * 测试3:
  *    遵循ES6 导出规则,但是有副作用的代码
  */
 
-// /*#__PURE123__*/ f2();
+/*#__PURE1__*/f2();
 
+/**
+ * `结论: treeShaking 对于有副作用的代码是无能为力的`
+ */
 
-function f2() {
-  console.log('f2');
-  return 110;
-}
-
-function f1(a,b) {
-  console.log('f1');
-  const c = a + b;
-  return c;
-}
-
-export {
-  f1,
-  f2,
-}
+export { f1, f2 };

@@ -1,12 +1,8 @@
-function f3(a,b) {
-  console.log('f3');
-  const c = a + b;
-  return c;
+function f3() {
+  return 'f3 done';
 }
-function f4(c,d) {
-  console.log('f4');
-  const e = c - d;
-  return e;
+function f4() {
+  return 'f4 done';
 }
 
 export {
