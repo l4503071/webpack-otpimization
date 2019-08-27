@@ -4,8 +4,8 @@
 
 - `git clone`
 - `npm run install`
-- `EXAMPLE=num npm run start` 打包对应实例文件,生成bundle包;
-  > num = 1,2,3,4,5. 分别对应
+- `EXAMPLE=${num} npm run start` 打包对应实例文件,生成bundle包;
+  > ${num} = 1,2,3,4,5. 分别对应实例n
 - `npm run exec`  执行生成后的bundle包.
 
 ## 背景
@@ -38,12 +38,12 @@
 ## 代码验证
 
 - 实例1
-  > 基础用法
+  > treeShaking: 使用方法
 - 实例2
-  > 多层用法
+  > treeShaking: 多层用法
 - 实例3
-  > 副作用代码
+  > treeShaking: 副作用代码
 - 实例4
-  > ES6的导入导出方式
+  > treeShaking: ES6的导入导出方式
 - 实例5
-  >
+  > sideEffects: 使用方法

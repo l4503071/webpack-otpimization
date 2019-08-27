@@ -6,7 +6,7 @@
 // import {
 //   isWeb,
 // } from "universal-env";
-// console.log(isWeb);
+// console.log('isWeb:', isWeb); // 注释此行代码,查看效果
 
 /**
  * 测试2:
@@ -24,12 +24,13 @@ function f2() {
   console.log('f2 done')
   return "f2 return";
 }
+
 /**
  * 测试3:
  *    遵循ES6 导出规则,但是有副作用的代码
  */
 
-/*#__PURE1__*/f2();
+// /*#__PURE1__*/f2();
 
 /**
  * `结论: treeShaking 对于有副作用的代码是无能为力的`

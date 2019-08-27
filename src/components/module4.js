@@ -3,14 +3,14 @@
  */
 
 // function f1(a,b) {
-//   console.log('f1');
-//   const c = a + b;
-//   return c;
+  // const c = a + b;
+  // console.log('f1 done: ' + c)
+  // return "f1 return";
 // }
-// function f2(a,b) {
-//   console.log('f2');
+// function f2() {
 //   const c = a + b;
-//   return c;
+//   console.log('f2 done: ' + c)
+//   return "f2 return";
 // }
 // export {
 //   f1,
@@ -37,28 +37,29 @@
 //   f2,
 // }
 
-
 /**
  * **导出方式3**
  */
 
 // function f2(a,b) {
-//   console.log('f2');
 //   const c = a + b;
-//   return c;
+//   console.log('f22 done: ' + c)
+//   return "f22 return";
 // }
+
+// console.log(f2);
 
 // export default {
 //   f1: function f1(a,b) {
-//     console.log('f1');
 //     const c = a + b;
-//     return c;
+//     console.log('f1 done: ' + c)
+//     return "f1 return";
 //   },
 //   // f2,
 //   f2: function f2(a,b) {
-//     console.log('f2');
 //     const c = a + b;
-//     return c;
+//     console.log('f2 done: ' + c)
+//     return "f2 return";
 //   }
 // }
 
@@ -69,14 +70,14 @@
 
 // const  utils = {
 //   f1: function f1(a,b) {
-//     console.log('f1');
 //     const c = a + b;
-//     return c;
+//     console.log('f1 done: ' + c)
+//     return "f1 return";
 //   },
-//   f2: function f2(c,d) {
-//     console.log('f2');
-//     const e = c - d;
-//     return e;
+//   f2: function f2(a,b) {
+//     const c = a + b;
+//     console.log('f2 done: ' + c)
+//     return "f2 return";
 //   }
 // }
 // export default utils;
@@ -86,13 +87,15 @@
  */
 
 // export default class P {
-//   static f1() {
-//     console.log('f1')
-//     return 'f1';
+//   static f1(a,b) {
+//     const c = a + b;
+//     console.log('f1 done: ' + c)
+//     return "f1 return";
 //   }
-//   static f2() {
-//     console.log('f2')
-//     return 'f2';
+//   static f2(a,b) {
+//     const c = a + b;
+//     console.log('f2 done: ' + c)
+//     return "f2 return";
 //   }
 // }
 
@@ -101,31 +104,26 @@
  */
 
 // class P {
-//   f1() {
-//     console.log('f1');
+//   f1(a,b) {
+//     const c = a + b;
+//     console.log('f1 done: ' + c)
+//     return "f1 return";
 //   }
-//   f2() {
-//     console.log('f2');
+//   f2(a,b) {
+//     const c = a + b;
+//     console.log('f2 done: ' + c)
+//     return "f2 return";
 //   }
 // }
-
 // export default new P();
 
 /**
  * **复合写法**
+ * **注意:拿不到变量**
  */
 
-export {
-  f3,
-  f4,
-} from './module4_1';
-
 // export {
-//   f5,
-//   f6,
-// } from './module4_2';
-
-
-// !function f1() {
-//   console.log('f1');
-// }()
+//   f3,
+//   f4,
+// } from './module4_1';
+// f4();

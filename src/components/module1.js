@@ -8,6 +8,6 @@ function f2() {
 }
 
 export {
-  f3,
-  f4,
+  f1,
+  f2,
 }

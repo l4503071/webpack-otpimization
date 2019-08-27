@@ -1,16 +1,16 @@
 /**
  * commonjs 导出
  */
-function f3() {
-  console.log('f3 done')
-  return "f3 return";
+function f1() {
+  console.log('f1 done')
+  return "f1 return";
 }
-function f4() {
-  console.log('f4 done')
-  return "f4 return";
+function f2() {
+  console.log('f2 done')
+  return "f2 return";
 }
 
 module.exports = {
-  f3,
-  f4,
+  f1,
+  f2,
 }

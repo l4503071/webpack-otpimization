@@ -1,9 +1,11 @@
-function f5() {
-  console.log('f5 done')
+function f5(a,b) {
+  const c = a + b;
+  console.log('f5 done: ' + c)
   return "f5 return";
 }
-function f6() {
-  console.log('f6 done')
+function f6(a,b) {
+  const c = a + b;
+  console.log('f6 done: ' + c)
   return "f6 return";
 }
 

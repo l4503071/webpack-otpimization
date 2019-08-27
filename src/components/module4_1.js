@@ -1,10 +1,11 @@
-function f3(list = []) {
-  list.pop();
-  console.log('f3 done')
+function f3(a,b) {
+  const c = a + b;
+  console.log('f3 done: ' + c)
   return "f3 return";
 }
-function f4() {
-  console.log('f4 done')
+function f4(a,b) {
+  const c = a + b;
+  console.log('f4 done: ' + c)
   return "f4 return";
 }
 
