@@ -3,9 +3,9 @@
  */
 
 // function f1(a,b) {
-  // const c = a + b;
-  // console.log('f1 done: ' + c)
-  // return "f1 return";
+//   const c = a + b;
+//   console.log('f1 done: ' + c)
+//   return "f1 return";
 // }
 // function f2() {
 //   const c = a + b;

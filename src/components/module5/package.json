@@ -1,6 +1,9 @@
 {
   "name": "module4",
-  "sideEffects": false,
+  "sideEffects1": false,
+  "sideEffects2": [
+    "**/*.css"
+  ],
   "version": "1.0.0",
   "description": "",
   "main": "module5.js",

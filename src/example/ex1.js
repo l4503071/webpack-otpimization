@@ -38,7 +38,7 @@
  * 其他使用方式验证
  */
 
-import { f1 } from "../components/module1";
+// import { f1 } from "../components/module1";
 // console.log('ex1', typeof f1);
 // console.log('ex1', f1);
 // console.log('ex1', f1 === 1);
