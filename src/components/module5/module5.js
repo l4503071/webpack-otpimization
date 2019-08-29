@@ -22,7 +22,7 @@ function f2(a,b) {
 /**
  * 副作用代码
  */
-f2();
+// f2();
 
 export {
   f1,

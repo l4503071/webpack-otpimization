@@ -17,9 +17,9 @@ export default class {
 
 **./component/index.js**
 ```js
-import Component_1 from './component_1;
-import Component_2 from './component_2;
-import Component_3 from './component_3;
+import Component_1 from './component_1';
+import Component_2 from './component_2';
+import Component_3 from './component_3';
 
 export {
   Component_1,
@@ -385,3 +385,7 @@ export {
 - `EXAMPLE=${num} npm run start` 打包对应实例文件,生成bundle包;
   > ${num} = 1,2,3,4,5. 分别对应实例n
 - `npm run exec`  执行生成后的bundle包.
+
+
+## 补充
+  1. require 的模糊匹配
