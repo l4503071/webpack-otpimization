@@ -30,7 +30,7 @@
   "dependencies": {
     "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "image-source-loader": "^0.6.5",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "universal-env": "^0.6.6",
     "webpack-bundle-analyzer": "^3.4.1",
     "webpack-deep-scope-plugin": "^1.6.2"
